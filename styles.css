@@ -7,7 +7,8 @@ body{
     background-color: #ebf2ff !important;
 }
 
-.add_new_btn_mobile_only{
+
+.add__new__btn__mobile__only{
     position: fixed;
     bottom: 0;
     right: 0;
@@ -17,8 +18,9 @@ body{
     z-index: 3;
 }
 
-@media (min-width: 768px) {
-    .add_new_btn_mobile_only{
+
+@media (min-width: 768px){
+    .add__new__btn__mobile__only{
         display: none;
     }
 }
